@@ -1,0 +1,3 @@
+[submodule "bundle/purescript-vim"]
+	path = bundle/purescript-vim
+	url = git@github.com:raichoo/purescript-vim.git
