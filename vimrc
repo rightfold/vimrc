@@ -4,6 +4,9 @@ syntax on
 
 set relativenumber
 
+set colorcolumn=81
+highlight ColorColumn ctermbg=6
+
 fun! <SID>StripTrailingWhitespace()
   let l = line(".")
   let c = col(".")
