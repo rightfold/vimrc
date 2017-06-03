@@ -10,3 +10,6 @@
 [submodule "bundle/vim-go"]
 	path = bundle/vim-go
 	url = https://github.com/fatih/vim-go.git
+[submodule "bundle/vim-perl6"]
+	path = bundle/vim-perl6
+	url = git@github.com:vim-perl/vim-perl6.git
