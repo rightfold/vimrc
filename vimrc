@@ -39,3 +39,5 @@ highlight User4 ctermfg=3
 set wildignore=*/bower_components/*,*/node_modules/*,*/output/*,*/target/*,*/vendor/*,*/Cargo.lock
 
 setglobal complete-=i
+
+let fortran_free_source=1
