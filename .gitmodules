@@ -13,3 +13,6 @@
 [submodule "bundle/vim-perl6"]
 	path = bundle/vim-perl6
 	url = git@github.com:vim-perl/vim-perl6.git
+[submodule "bundle/typescript-vim"]
+	path = bundle/typescript-vim
+	url = git@github.com:leafgarland/typescript-vim.git
