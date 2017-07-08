@@ -45,3 +45,5 @@ let fortran_free_source=1
 let g:typescript_indent_disable=1
 
 autocmd BufNewFile,BufRead *.hs set syntax=purescript
+
+set nojoinspaces
