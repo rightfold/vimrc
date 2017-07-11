@@ -36,7 +36,7 @@ highlight User2 ctermfg=3
 highlight User3 ctermfg=1
 highlight User4 ctermfg=3
 
-set wildignore=*/bower_components/*,*/node_modules/*,*/output/*,*/target/*,*/vendor/*,*/build/*,*/Cargo.lock
+set wildignore=*/bower_components/*,*/node_modules/*,*/output/*,*/target/*,*/vendor/*,*/build/*,*/Cargo.lock,*.pyc
 
 setglobal complete-=i
 
