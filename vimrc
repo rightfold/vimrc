@@ -47,3 +47,5 @@ let g:typescript_indent_disable=1
 set nojoinspaces
 
 set comments+=:--
+
+set wildmenu
