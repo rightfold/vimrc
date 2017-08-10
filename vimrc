@@ -1,5 +1,7 @@
+" Pathogen
 execute pathogen#infect()
 
+" Readability
 syntax on
 
 set relativenumber
@@ -7,6 +9,7 @@ set relativenumber
 set colorcolumn=81
 highlight ColorColumn ctermbg=6
 
+" Whitespace
 fun! <SID>StripTrailingWhitespace()
   let l = line(".")
   let c = col(".")
@@ -15,11 +18,14 @@ fun! <SID>StripTrailingWhitespace()
 endfun
 autocmd BufWritePre * :call <SID>StripTrailingWhitespace()
 
+" Indentation
 set autoindent
 set expandtab
 set shiftwidth=2
 set tabstop=2
+set shiftround
 
+" Status line
 set laststatus=2
 
 set statusline=
@@ -36,24 +42,25 @@ highlight User2 ctermfg=3
 highlight User3 ctermfg=1
 highlight User4 ctermfg=3
 
+" Completion
 set wildignore=*/bower_components/*,*/node_modules/*,*/output/*,*/target/*,*/vendor/*,*/build/*,*/Cargo.lock,*.pyc
-
+set wildmenu
 setglobal complete-=i
 
-let fortran_free_source=1
-
-let g:typescript_indent_disable=1
-
+" Rewrapping
 set nojoinspaces
-
 set comments+=:--
 
-set wildmenu
-
-set shiftround
-
+" Key bindings
 nnoremap <space> viw
 
+" Fortran
+let fortran_free_source=1
+
+" TypeScript
+let g:typescript_indent_disable=1
+
+" Haskell
 iabbrev hiCA import Control.Applicative
 iabbrev hiCM import Control.Monad
 iabbrev hiDE import Data.Either
