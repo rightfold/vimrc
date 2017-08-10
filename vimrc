@@ -49,3 +49,5 @@ set nojoinspaces
 set comments+=:--
 
 set wildmenu
+
+set shiftround
