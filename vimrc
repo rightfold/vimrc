@@ -51,3 +51,5 @@ set comments+=:--
 set wildmenu
 
 set shiftround
+
+nnoremap <space> viw
