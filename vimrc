@@ -53,3 +53,9 @@ set wildmenu
 set shiftround
 
 nnoremap <space> viw
+
+iabbrev hiCA import Control.Applicative
+iabbrev hiCM import Control.Monad
+iabbrev hiDE import Data.Either
+iabbrev hiDM import Data.Maybe
+iabbrev hiDS import Data.Semigroup
