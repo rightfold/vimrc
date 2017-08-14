@@ -64,5 +64,6 @@ let g:typescript_indent_disable=1
 iabbrev hiCA import Control.Applicative
 iabbrev hiCM import Control.Monad
 iabbrev hiDE import Data.Either
+iabbrev hiDF import Data.Foldable
 iabbrev hiDM import Data.Maybe
 iabbrev hiDS import Data.Semigroup
